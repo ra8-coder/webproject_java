@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+ <display-name>webproject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <!-- DBCP -->
+	<resource-ref>
+		<description>Oracle DataSource</description>
+		<res-ref-name>jdbc/myOracle</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	
+<!-- movie Servlet 매핑 -->
+ 
+ 	<servlet>
+ 		<servlet-name>movieServlet</servlet-name>
+ 		<servlet-class>com.movie.MovieServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	<servlet-mapping>
+ 		<servlet-name>movieServlet</servlet-name>
+ 		<url-pattern>/Movie/*</url-pattern>
+ 	</servlet-mapping>
+ 	
+ <!-- theater Servlet 매핑 -->
+ 
+ 	<servlet>
+ 		<servlet-name>theaterServlet</servlet-name>
+ 		<servlet-class>com.theater.TheaterServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	<servlet-mapping>
+ 		<servlet-name>theaterServlet</servlet-name>
+ 		<url-pattern>/Theater/*</url-pattern>
+ 	</servlet-mapping>
+ 	
+ <!-- timetable Servlet 매핑 -->
+ 
+ 	<servlet>
+ 		<servlet-name>timetableServlet</servlet-name>
+ 		<servlet-class>com.timetable.TimetableServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	<servlet-mapping>
+ 		<servlet-name>timetableServlet</servlet-name>
+ 		<url-pattern>/Timetable/*</url-pattern>
+ 	</servlet-mapping>
+ <!-- booking Servlet 매핑 -->
+ 
+ 	<servlet>
+ 		<servlet-name>bookingServlet</servlet-name>
+ 		<servlet-class>com.booking.BookingServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	<servlet-mapping>
+ 		<servlet-name>bookingServlet</servlet-name>
+ 		<url-pattern>/Booking/*</url-pattern>
+ 	</servlet-mapping>
+ 	
+  <!-- login Servlet 매핑 -->
+ 
+ 	<servlet>
+ 		<servlet-name>loginServlet</servlet-name>
+ 		<servlet-class>com.login.LoginServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	<servlet-mapping>
+ 		<servlet-name>loginServlet</servlet-name>
+ 		<url-pattern>/Login/*</url-pattern>
+ 	</servlet-mapping>
+ 	
+ <!-- mypage Servlet 매핑 -->
+ 
+ 	<servlet>
+ 		<servlet-name>mypageServlet</servlet-name>
+ 		<servlet-class>com.mypage.MypageServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	<servlet-mapping>
+ 		<servlet-name>mypageServlet</servlet-name>
+ 		<url-pattern>/Mypage/*</url-pattern>
+ 	</servlet-mapping>
+ 	
+	
+</web-app>

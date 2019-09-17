@@ -1,0 +1,169 @@
+@CHARSET "UTF-8";
+
+#list {
+	width: 980px;
+	text-align: left;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 10pt;
+	vertical-align: middle;
+	margin-bottom: 100px;
+}
+
+#list .num {width:90px; text-align: center;}
+#list .resNum {width:100px;}
+#list .movieTitle {width:300px;}
+#list .cinema {width:150px;}
+#list .playDate {width:170px;}
+#list .saleDate {width:170px;}
+#list .cancel {width:100px;}
+#list .cancelDate {width:180px;}
+
+th {
+	background-color: #f2f2f2;
+	line-height:35px;
+	text-align:center;
+	vertical-align: middle;
+	padding-top: 0px;
+	font-weight: bold;
+	color: #666666;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+td {
+	height:35px ;
+	text-align:center;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.btn1 {
+	border-style: none;
+	height: 25px;
+	width: 70px;
+	margin-top: 7px;
+	background-color: #351f66;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.content{
+	width: 800px;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 20px;
+	align: center;
+}
+
+.btn2{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #4C4C4C;
+	background-color: #F2F2F2;
+	width: 100px;
+	height: 50px;
+	border-style: none;
+	cursor: pointer;
+}
+.btn2:hover{
+	font-family: 'Nanum Gothic', sans-serif;
+	background-color: white; 
+	color: #1294AB;
+	border-color: #1294AB;
+	border-style: solid;;
+}
+
+.top{
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+.middle{
+	font-size: 16pt;
+	padding: 10px;
+	padding-bottom: 0px;
+	height: 50px;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+.bottom{
+	font-size: 10pt;
+	padding: 10px;
+	height: 30px;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+
+.title{
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.btn3{
+	border-style: none;
+	border: 1px solid #CCCCCC;
+	height: 30px;
+	width: 100px;
+	margin-top: 2px;
+	background-color: #fff;
+	font-size: 10pt;
+	color: #666;
+}
+
+.wish_movie {
+	border: 1px solid #CCCCCC;
+}
+
+ul,dl,ol,li,h1,h2,h3,h4,h5,h6,p,dd,dt{margin:0;padding:0}
+
+.js-load {
+    display: none;
+}
+.js-load.active {
+    display: block;
+}
+.is_comp.js-load:after {
+    display: none;
+}
+.btn-wrap, .lists, .main {
+    display: block;
+}
+.lists {
+    margin-bottom: 4rem;
+}
+.lists__item {
+    padding: 5px;
+}
+.btn-wrap {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    width: 200px;
+    height: 54px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 54px;
+    outline: none;
+    background-color: #F2F2F2;
+    border: none;
+    color: #fff;
+    line-height: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button:hover{
+	background-color: white; 
+	color: #1294AB;
+	border: 1px solid #1294AB;
+}
+
+a:link {text-decoration: none; color: black;}
+a:visited {text-decoration: none; color: grey;}
+a:active {text-decoration: none; color: grey;}
+a:hover {text-decoration: none; color: #503396; font-weight: bold;}
+

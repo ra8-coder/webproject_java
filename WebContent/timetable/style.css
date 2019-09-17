@@ -1,0 +1,81 @@
+.sub_navi {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 3px solid #503396;
+}
+.sub_navi .sub_navi_wrap {
+   
+    width: 970px;
+    margin: 0 auto;
+} 
+
+ul, ol, dl, li, p {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sub_navi ul li {
+    position: relative;
+    float: left;
+    margin-right: 60px;
+}
+.sub_navi a.timetable {
+    width: 116px;
+    background: url(http://image2.megabox.co.kr/mop/home/timetable/sub_navi.png) 0 50% no-repeat;
+}
+.sub_navi a.timetable.i0 {
+	width: 60px;
+	background-position: -539px 50%
+}
+
+.sub_navi a.timetable.i2 {
+	width: 130px;
+	background-position: -176px 50%
+}
+
+.sub_navi a.timetable.i3 {
+	width: 135px;
+	background-position: -363px 50%
+}
+
+.sub_navi a.timetable:hover, .sub_navi a.timetable:focus, .sub_navi a.timetable.active
+	{
+	background-image:
+		url(http://image2.megabox.co.kr/mop/home/timetable/sub_navi_on.png)
+}
+
+
+.sub_navi ul li a {
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 60px;
+    height: 50px;
+}
+.sub_navi a.timetable:hover, .sub_navi a.timetable:focus, .sub_navi a.timetable.active {
+    background-image: url(http://image2.megabox.co.kr/mop/home/timetable/sub_navi_on.png);
+}
+.sub_navi a.timetable {
+    width: 116px;
+    background: url(http://image2.megabox.co.kr/mop/home/timetable/sub_navi.png) 0 50% no-repeat;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: " ";
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:after {
+    clear: both;
+}
+.sub_navi .sub_navi_wrap {
+    position: relative;
+    width: 970px;
+    margin: 0 auto;
+}
+
+
+

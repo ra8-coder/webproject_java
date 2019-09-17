@@ -1,0 +1,787 @@
+@CHARSET "UTF-8";
+
+html, body {
+    font-family: 'NanumGothic','나눔고딕','맑은 고딕','Malgun Gothic','돋움',dotum,'Apple SD Gothic Neo',sans-serif;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, label {
+    font-weight: 700;
+    font-family: '나눔고딕','NanumGothic','맑은 고딕','Malgun Gothic','돋움',dotum,'Apple SD Gothic Neo',sans-serif;
+}
+
+/* 메인이미지안에 글씨넣기위해  */
+#P2_container {
+    position: relative;
+    margin-top: 38px;
+    margin-bottom: 85px;
+}
+
+.P2_container .sc.no1 {
+    position: relative;
+    height: 450px;
+    background: url(http://image2.megabox.co.kr/mop/home/theater/bg_top.jpg) 50% 0 no-repeat;
+    background-size: cover !important;
+}
+
+
+.P2_container .sc.no1 .whole_wrap {
+    position: relative;
+}
+
+.P2_container .sc .whole_wrap {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.P2_container .sc.no1 .whole_wrap p.P2_ti_box {
+    top: 106px;
+}
+
+.P2_container .sc.no1 .whole_wrap p.P2_ti_box, .P2_container .sc.no1 .whole_wrap p.P2_tx_box {
+    background: url(http://image2.megabox.co.kr/mop/home/special/bg_theater_tx.png);
+    padding: 5px;
+}
+
+.P2_container .sc.no1 .whole_wrap p {
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.P2_container .sc.no1 .whole_wrap p.P2_ti_box img:first-child {
+    margin-bottom: 10px;
+}
+.P2_container .sc.no1 .whole_wrap p.P2_ti_box img {
+    display: block;
+    padding-bottom: 0px;
+}
+
+.P2_container .sc.no1 .whole_wrap p.P2_btn_box {
+    top: 198px;
+    overflow: hidden;
+}
+
+.P2_container .sc.no1 .whole_wrap p.P2_btn_box button {
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+    color: #503396;
+    border: 1px solid #fff;
+    background-color: rgba(255,255,255,0.7);
+}
+.P2_container .sc.no1 .whole_wrap .top_btn1 {
+    width: 148px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.P2_container .sc.no1 .whole_wrap .top_btn2 {
+    width: 148px;
+    height: 30px;
+    margin-top: 5px;
+    background-position: -150px 0;
+}
+
+
+.P2_container .sc.no1 .whole_wrap p.P2_tx_box {
+    max-height: 90px;
+    overflow: hidden;
+    top: 293px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+}
+.m_time_notice {
+	margin: 19px 0 0 15px;
+	font-size: 13px;
+	line-height: 22px;
+	color: #666
+}
+
+.P2_container .sc.no2 {
+    margin-bottom: 70px;
+}
+
+.P2_container .sc.no5 {
+    padding-top: 30px;
+}
+
+.mtime_container {
+    margin-top: 0 !important;
+}
+
+.mtime_container .m_time_tb.v2 {
+    margin-bottom: 10px;
+}
+
+.m_time_tb {
+    clear: both;
+    border-collapse: collapse;
+    table-layout: fixed;
+    padding: 0;
+    border-spacing: 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table {
+    max-width: 100%;
+    background-color: transparent;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.mtime_container .m_time_tb.v2 {
+	margin-bottom: 10px
+}
+
+.mtime_container .m_time_tb.v2 th {
+	padding: 19px 20px
+}
+
+.mtime_container .m_time_tb.v2 th border-bottom: 1px solid #e5e5e5 strong{
+	font-weight: bold
+}
+
+.mtime_container .m_time_tb.v2 .title div {
+	position: relative;
+	padding-left: 27px
+}
+
+.mtime_container .m_time_tb.v2 .title div .age_m {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0
+}
+
+.mtime_container .m_time_tb.v2 .title div strong>a {
+	color: #333
+}
+
+.mtime_container .m_time_tb.v2 .title div strong>a:hover,
+.mtime_container .m_time_tb.v2 .title div strong>a:focus {
+	text-decoration: none
+}
+
+.mtime_container .m_time_tb.v2 .room {
+	width: 100px;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 15px;
+	padding-left: 10px
+}
+
+.mtime_container .m_time_tb.v2 .room small {
+	display: block;
+	margin-top: 4px;
+	font-weight: 300;
+	font-size: 14px
+}
+
+
+.mtime_container .m_time_tb.v2.lineheight_80 .movie_time {
+	position: relative;
+	height: 80px;
+	overflow: hidden
+}
+
+.mtime_container .m_time_tb.v2 .lineheight_80 .movie_time a
+	{
+	display: block;
+	width: 100%;
+	height: 80px
+}
+
+.mtime_container .m_time_tb.v2 .lineheight_80 .movie_time .time_info
+	{
+	margin: 5px 0
+
+}
+
+.mtime_container .m_time_tb.v2 .lineheight_80 .movie_time .hover_time
+	{
+	line-height: 80px;
+	position: absolute
+}
+
+.mtime_container .m_time_tb.v2 .lineheight_90 .movie_time {
+	height: 90px
+}
+
+.mtime_container .m_time_tb.v2 .lineheight_90 .movie_time .time_info
+	{
+	margin: 10px 0
+}
+
+.mtime_container .m_time_tb.v2 .lineheight_90 .movie_time .hover_time
+	{
+	line-height: 90px
+}
+
+.mtime_container .m_time_tb.v2 .li_3 .movie_time {
+	height: 98px
+}
+
+.mtime_container .m_time_tb.v2 .li_3 .movie_time .movie_time
+	{
+	line-height: 98px
+}
+
+.mtime_container .m_time_tb.v2 .li_3 .movie_time .time_info .time
+	{
+	top: 21px
+}
+
+.mtime_container .m_time_tb.v2 .li_3 .movie_time .time_info .seat
+	{
+	top: 45px
+}
+
+.mtime_container .m_time_tb.v2 .li_3 .movie_time .time_info .ico_box
+	{
+	top: 43px
+}
+
+.mtime_container .m_time_tb.v2  .time_info .type {
+	display: none
+}
+
+.mtime_container .m_time_tb.v2 .time_info.play_type .type {
+	display: block;
+	font-size: 11px;
+	text-indent: -22px;
+	top: 11px
+}
+
+.mtime_container .m_time_tb.v2  .time_info.play_type .time {
+	top: 22px
+}
+
+.mtime_container .m_time_tb.v2  .time_info.play_type .seat {
+	top: 45px
+}
+
+
+.mtime_container .m_time_tb.v2 .title {
+    width: 150px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.mtime_container .m_time_tb.v2 th {
+    padding: 19px 20px;
+}
+
+.m_time_tb th {
+    padding: 19px 0 0 0;
+    width: 330px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+    vertical-align: top;
+}
+
+
+.m_time_tb {
+	clear: both;
+	border-collapse: collapse;
+	table-layout: fixed;
+	padding: 0;
+	border-spacing: 0;
+	border-top: 1px solid #e5e5e5
+}
+
+.m_time_tb span {
+	display: block
+}
+
+.m_time_tb th {
+	padding: 19px 0 0 0;
+	width: 330px;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #e5e5e5;
+	vertical-align: top
+}
+
+.m_time_tb th strong.title {
+	display: block;
+	float: left;
+	width: 170px;
+	font-size: 14px
+}
+
+.m_time_tb th span {
+	float: left
+}
+
+.m_time_tb th span.age {
+	width: 20px;
+	margin: 1px 6px 0 14px
+}
+
+.m_time_tb th span.cinema {
+	position: absolute;
+	width: 120px;
+	font-size: 14px;
+	text-align: right;
+	margin-left: 210px;
+	padding-right: 15px
+}
+
+.m_time_tb td .movie_time .time_info {
+	height: 100%;
+	text-align: center
+}
+
+
+
+.m_time_tb td .movie_time .time_info .offsale {
+	top: 4px;
+	margin-left: 12px;
+	font-size: 11px
+}
+
+.m_time_tb td .movie_time .time_info .time {
+	top: 14px;
+	font-size: 15px;
+}
+
+.m_time_tb td .movie_time .time_info .seat {
+	top: 36px;
+	font-size: 13px;
+	color: #503396
+}
+
+.m_time_tb td .movie_time .time_info .reserve{
+	top: 52px;
+}
+
+.m_time_tb td .movie_time .time_info .event {
+	width: 11px;
+	height: 11px;
+	overflow: hidden;
+	text-indent: -9999px;
+	background-color: #999
+}
+
+.m_time_tb td .movie_time .time_info .event.event02 {
+	background-color: #ff0000
+}
+
+.m_time_tb td .movie_time .time_info .event.event01 {
+	background-color: #00cc00
+}
+
+.m_time_tb td .movie_time .time_info .event.event14 {
+	background-color: #00b7ee
+}
+
+.m_time_tb td .movie_time .time_info .event.event11 {
+	background-color: #ff00ff
+}
+
+.m_time_tb td .movie_time .time_info .event.event10 {
+	background-color: #673ab7
+}
+
+.m_time_tb td .movie_time .time_info .event.event19 {
+	background-color: #f7941d
+}
+
+.m_time_tb td .movie_time .time_info .event.event20 {
+	background-color: #37a452
+}
+
+.m_time_tb td .movie_time .time_info .event.no1 {
+	top: 38px;
+	left: 90px
+}
+
+.m_time_tb td .movie_time .time_info .event.no2 {
+	top: 38px;
+	left: 102px
+}
+
+.m_time_tb td .movie_time .time_info .event.no3 {
+	top: 38px;
+	left: 114px
+}
+
+.m_time_tb td .movie_time .time_info .ico_box {
+	display: block;
+	position: absolute;
+	top: 35px;
+	left: 92px
+}
+
+.m_time_tb td .movie_time .time_info .ico_box span {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	margin: 0 -1px 0 -2px
+}
+
+.m_time_tb td .movie_time .hover_time {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 18px;
+	line-height: 60px;
+	background-color: #351F66;
+	color: #59BEC9;
+	z-index: 1
+}
+
+.m_time_tb td .movie_time .theater_hv_pop {
+	display: none;
+	position: absolute;
+	top: 5px;
+	left: 135px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px 10px 5px;
+	width: 100px;
+	background-color: #f2f2f2;
+	z-index: 9
+}
+
+.m_time_tb td .movie_time .theater_hv_pop span {
+	display: block;
+	color: #333;
+	font-size: 11px;
+	line-height: 11px;
+	margin-bottom: 5px;
+	vertical-align: top
+}
+
+.m_time_tb td .movie_time .theater_hv_pop span i {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	width: 11px;
+	height: 11px;
+	margin-right: 5px;
+	background-color: #999;
+	float: left
+}
+
+.m_time_tb td .movie_time .theater_hv_pop span i.ico_02 {
+	background-color: #ff0000
+}
+
+.m_time_tb td .movie_time .theater_hv_pop span i.ico_01 {
+	background-color: #00cc00
+}
+
+.m_time_tb td .movie_time .theater_hv_pop span i.ico_14 {
+	background-color: #00b7ee
+}
+
+.m_time_tb td .movie_time .theater_hv_pop span i.ico_11 {
+	background-color: #ff00ff
+}
+
+.m_time_tb td .movie_time .theater_hv_pop span i.ico_10 {
+	background-color: #601986
+}
+
+.m_time_tb td .movie_time .theater_hv_pop span i.ico_19 {
+	background-color: #f7941d
+}
+
+.m_time_tb td .movie_time .theater_hv_pop span i.ico_20 {
+	background-color: #37a452
+}
+
+.m_time_tb td .movie_time .theater_hv_pop strong {
+	position: absolute;
+	left: -6px;
+	top: 11px;
+	display: block;
+	width: 6px;
+	height: 10px;
+	background:
+		url(http://image2.megabox.co.kr/mop/home/theater/ico_theater_ar.png) 0
+		0 no-repeat
+}
+
+.m_time_tb td .movie_time.done * {
+	color: #666 !important;
+	cursor: default
+}
+
+.m_time_tb td .movie_time:hover .theater_hv_pop {
+	display: block
+}
+
+.m_time_tb tr.li_2 th {
+	padding: 19px 0
+}
+
+.m_time_tb tr.li_2 .movie_time {
+	height: 79px
+}
+
+.m_time_tb tr.li_2 .movie_time .time_info .time {
+	top: 20px
+}
+
+.m_time_tb tr.li_2 .movie_time .time_info .seat {
+	top: 44px
+}
+
+.m_time_tb tr.li_2 td .movie_time .hover_time {
+	line-height: 80px
+}
+
+th {
+    text-align: left;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+th {
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.mtime_container .m_time_tb.v2 .title div .age_m {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+
+.m_time_tb th span {
+    float: left;
+}
+
+.m_time_tb span {
+    display: block;
+}
+
+.age_m {
+    margin: 0 5px 0 15px;
+    width: 20px;
+    height: 21px;
+    background: url(http://image2.megabox.co.kr/mop/home/bg_age_m.png) 0 -999px no-repeat;
+}
+
+.age_12 {
+    background-position: -60px 0;
+}
+
+.age_15 {
+    background-position: -90px 0;
+}
+
+.age_18 {
+    background-position: -30 0;
+}
+
+.age_all {
+    background-position: 0 0;
+}
+
+
+.age .age_m {
+    background: url(http://image2.megabox.co.kr/mop/home/bg_age2.png) 0 -999px no-repeat;
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    margin-right: 4px;
+    text-indent: -99999px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.m_time_tb td {
+    width: 100px;
+    padding: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.mtime_container .m_time_tb.v2 .lineheight_80 .movie_time {
+    position: relative;
+    height: 80px;
+    overflow: hidden;
+}
+
+.m_time_tb td .movie_time {
+    float: left;
+    width: 128px;
+    height: 60px;
+    position: relative;
+    cursor: pointer;
+}
+
+.mtime_container .m_time_tb.v2 .lineheight_80 .movie_time a {
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+a:hover {
+    color: #198591;
+    text-decoration: none;
+}
+
+.mtime_container .m_time_tb.v2 .lineheight_80 .movie_time .time_info {
+    margin: 5px 0;
+}
+.m_time_tb td .movie_time .time_info {
+    height: 100%;
+    text-align: center;
+}
+ul, ol, dl, li, p {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mtime_container .m_time_tb.v2 .time_info .type {
+    display: none;
+}
+.m_time_tb td .movie_time .time_info>span {
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+.m_time_tb span {
+    display: block;
+}
+
+.time_info:hover .hover_time {
+	display : block;
+}
+
+.P2_container .m_time_tb.v2 .lineheight_80 .movie_time .hover_time {
+    line-height: 80px;
+    position: absolute;
+}
+
+.floorinfo {
+    margin-bottom: 100px;
+}
+
+.floorinfo h3 {
+	text-align: left;
+    width: 100%;
+    height: 34px;
+    margin: 0 0 30px 0;
+    font-size: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.floorP2 {
+    height: 40px;
+    padding: 1px 20px;
+    border: 1px solid #e5e5e5;
+    border-left-width: 5px;
+    overflow: hidden;
+}
+
+.floorP2 strong {
+    float: left;
+    width: 100px;
+    display: block;
+    font-size: 24px;
+    height: 100%;
+    line-height: 38px;
+}
+
+.floorP2 p {
+    font-size: 13px;
+    float: left;
+    height: 100%;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.mapInfo {
+    height: 40px;
+    padding: 1px 20px;
+    border: 1px solid #e5e5e5;
+    border-left-width: 5px;
+    overflow: hidden;
+}
+
+
+.mapInfo p {
+    font-size: 13px;
+    float: left;
+    height: 100%;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.trafficInfo {
+    margin-bottom: 100px;
+}
+
+.trafficInfo h3 {
+	text-align: left;
+    width: 100%;
+    height: 34px;
+    margin: 0 0 30px 0;
+    font-size: 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.traInfo {
+	font-weight: bold;
+	text-align: left; 
+	padding-left: 10px;
+}
+
+.traInfo ul {
+    padding: 6px 0 6px 60px;
+    border: 6px solid #f2f2f2;
+    width: 800px;
+    margin-bottom: 10px;
+}
+
+.traInfo li {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+

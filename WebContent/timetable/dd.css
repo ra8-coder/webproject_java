@@ -1,0 +1,196 @@
+@CHARSET "UTF-8";
+
+html, body {
+    font-family: 'NanumGothic','나눔고딕','맑은 고딕','Malgun Gothic','돋움',dotum,'Apple SD Gothic Neo',sans-serif;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+.scheduleP2{
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.scheduleP2 span {
+    display: block;
+}
+
+.scheduleP2 th {
+    padding: 19px 0 0 0;
+    width: 330px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    vertical-align: top;
+}
+
+.scheduleP2 th {
+    padding: 19px 20px;
+}
+
+.scheduleP2 small {
+    display: block;
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+}
+
+
+ul, ol, dl, li, p {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+div {
+    display: block;
+}
+
+.scheduleP2 td {
+    width: 640px;
+    padding: 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.scheduleP2 td .movie_time {
+    float: left;
+    width: 128px;
+    height: 100px;
+    position: relative;
+    
+}
+
+.scheduleP2 .movie_time a {
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+
+.scheduleP2 td .movie_time .mhover_time {
+    line-height: 80px;
+    position: absolute;
+}
+
+.scheduleP2 td .movie_time .mhover_time {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #351F66;
+    color: #59BEC9;
+    z-index: 1;
+}
+
+.scheduleP2 .movie_time .mtime_info {
+    margin: 5px 0;
+}
+
+.scheduleP2 td .movie_time .mtime_info {
+    height: 100%;
+    text-align: center;
+}
+
+ul, ol, dl, li, p {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+
+element.style {
+}
+.scheduleP2 .movie_time .mtime_info {
+    margin: 5px 0;
+}
+.scheduleP2 td .movie_time .mtime_info {
+    height: 100%;
+    text-align: center;
+}
+ul, ol, dl, li, p {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+p {
+    margin: 0 0 10px;
+}
+
+ {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.scheduleP2 .mtime_info .type {
+    display: block;
+    font-size: 11px;
+    text-indent: -22px;
+    top: 11px;
+}
+.scheduleP2 .mtime_info .type {
+    display: none;
+}
+.scheduleP2 td .movie_time .mtime_info>span {
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+.scheduleP2 .mtime_info .time {
+    top: 22px;
+}
+.scheduleP2 td .movie_time .mtime_info .time {
+    top: 14px;
+    font-size: 18px;
+}
+
+.scheduleP2 td .movie_time .mtime_info .seat {
+    top: 45px;
+}
+.scheduleP2 td .movie_time .mtime_info .seat {
+    top: 36px;
+    font-size: 11px;
+    color: #503396;
+}
+
+.scheduleP2 td .movie_time .mtime_info a{
+    
+    color: #808000;
+    
+}
+.scheduleP2 td .movie_time .mtime_info>span {
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, label {
+    font-weight: 700;
+    font-family: '나눔고딕','NanumGothic','맑은 고딕','Malgun Gothic','돋움',dotum,'Apple SD Gothic Neo',sans-serif;
+}
+b, strong {
+    font-weight: bold;
+}
+

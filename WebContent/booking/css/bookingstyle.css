@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+
+*{
+	background-color: #F9F9F9;
+}
+
+.selecting{
+	.cursor:pointer;
+}
+
+
+td.sample1{
+	border: 1px solid #CFCFCF;
+	
+}
+
+.text {
+	color: #513396;
+	font-size: 17pt;
+	font-family: sans-serif;
+	font-weight: bold;
+	
+	
+}
+
+.btn1{
+	width: 65px; 
+	background-color: rgba( 255, 255, 255, 0.5 );  
+	font-size: 12pt;
+	font-family: sans-serif;
+	color: ;
+	text-align: center;
+	border : 1;
+	
+}
+.btn2{
+	width: 20px; 
+	
+	background-color: rgba( 255, 255, 255, 0.5 );  
+	font-size: 8pt;
+	font-family: sans-serif;
+	color: ;
+	text-align: center;
+	border : 1;
+	
+}
+
+.btn3{
+	width: 35px; 
+	background-color: rgba( 255, 255, 255, 0.5 );  
+	font-size: 12pt;
+	font-family: sans-serif;
+	color: ;
+	text-align: center;
+	border : 1;
+	
+}
+
+.tb2{
+	border-color: #CFCFCF; 
+	border-width: 0.5px; 
+	
+}
+.selection{
+	width: 50px;
+	
+}
+
+.scrolltbody tbody {
+    display: block;
+    width: 440px;
+    height: 440px;
+    overflow: scroll;
+}
+.scrolltbody td { border: 1px solid #000; border-top: 0; }
+.scrolltbody td:nth-of-type(1) { width: 80px; }
+.scrolltbody td:nth-of-type(2) { width: 280px; }
+.scrolltbody td:nth-of-type(3) { width: 80px; }
+
+
